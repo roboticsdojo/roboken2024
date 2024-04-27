@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'tutorial_package'
+package_name = 'py_pubsub'
 
 setup(
     name=package_name,
@@ -15,12 +15,13 @@ setup(
     zip_safe=True,
     maintainer='Lenny Ng\'ang\'a',
     maintainer_email='codewithlennylen254@gmail.com',
-    description='Demo Package to understand ROS 2 Workflow',
+    description='Example Publisher and Subscriber',
     license='Apache-2.0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'tutorial_node = tutorial_package.tutorial_node:main'
+            'talker = py_pubsub.publisher_member_function:main',
+            'listener = py_pubsub.subscriber_member_function:main',
         ],
     },
 )
