@@ -16,126 +16,139 @@
 </geometry>
 </collision>
 <visual name="gamefield_1_white_wheel_visual">
-<pose>0.25617120753526689825 0.51052767384052277766 0.46621026992797853783 0 -0 0</pose>
+<pose>-0.64082879246473312129 -3.5174723261594773582 -0.069789730072021494145 0 -0 0</pose>
 <geometry>
 <mesh><uri>file://white_wheel.stl</uri></mesh>
 </geometry>
 <material><ambient>1 1 1 1</ambient><diffuse>1 1 1 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
 </visual>
 <collision name="gamefield_1_white_wheel_visual">
-<pose>0.25617120753526689825 0.51052767384052277766 0.46621026992797853783 0 -0 0</pose>
+<pose>-0.64082879246473312129 -3.5174723261594773582 -0.069789730072021494145 0 -0 0</pose>
 <geometry>
 <mesh><uri>file://sdf//white_wheel.stl</uri></mesh>
 </geometry>
 </collision>
 <visual name="gamefield_2_engine_visual">
-<pose>0.78989381842315198323 0.71821308895945545903 0.47025498390197750798 0 -0 0</pose>
+<pose>-1.5531061815768480994 -3.594786911040544819 -0.21274501609802254354 0 -0 0</pose>
 <geometry>
 <mesh><uri>file://engine.stl</uri></mesh>
 </geometry>
 <material><ambient>0.91764705882352937127 0.91764705882352937127 0.91764705882352937127 1</ambient><diffuse>0.91764705882352937127 0.91764705882352937127 0.91764705882352937127 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
 </visual>
 <collision name="gamefield_2_engine_visual">
-<pose>0.78989381842315198323 0.71821308895945545903 0.47025498390197750798 0 -0 0</pose>
+<pose>-1.5531061815768480994 -3.594786911040544819 -0.21274501609802254354 0 -0 0</pose>
 <geometry>
 <mesh><uri>file://sdf//engine.stl</uri></mesh>
 </geometry>
 </collision>
 <visual name="gamefield_3_ramp_visual">
-<pose>-0.85382550954818736688 -1.2854618597775697708 0.059045654535293590204 0 -0 0</pose>
+<pose>0.79589738376438678991 -2.1194079470634470397 -0.22495434546470635673 0 -0 1.57079632679489678</pose>
 <geometry>
 <mesh><uri>file://ramp.stl</uri></mesh>
 </geometry>
 <material><ambient>0.49803921568627451677 0.49803921568627451677 0.49803921568627451677 1</ambient><diffuse>0.49803921568627451677 0.49803921568627451677 0.49803921568627451677 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
 </visual>
 <collision name="gamefield_3_ramp_visual">
-<pose>-0.85382550954818736688 -1.2854618597775697708 0.059045654535293590204 0 -0 0</pose>
+<pose>0.79589738376438678991 -2.1194079470634470397 -0.22495434546470635673 0 -0 1.57079632679489678</pose>
 <geometry>
 <mesh><uri>file://sdf//ramp.stl</uri></mesh>
 </geometry>
 </collision>
 <visual name="gamefield_4_trailer_visual">
-<pose>0.78989381842315198323 0.71821308895945545903 0.47025498390197750798 0 -0 0</pose>
+<pose>-0.045785283938049564645 2.3037220712602137773 -0.21374501609802254443 0 -0 -1.57079632679489678</pose>
 <geometry>
 <mesh><uri>file://trailer.stl</uri></mesh>
 </geometry>
 <material><ambient>0.91764705882352937127 0.91764705882352937127 0.91764705882352937127 1</ambient><diffuse>0.91764705882352937127 0.91764705882352937127 0.91764705882352937127 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
 </visual>
 <collision name="gamefield_4_trailer_visual">
-<pose>0.78989381842315198323 0.71821308895945545903 0.47025498390197750798 0 -0 0</pose>
+<pose>-0.045785283938049564645 2.3037220712602137773 -0.21374501609802254443 0 -0 -1.57079632679489678</pose>
 <geometry>
 <mesh><uri>file://sdf//trailer.stl</uri></mesh>
 </geometry>
 </collision>
 <visual name="gamefield_5_red_wheel_visual">
-<pose>0.25617120753526689825 0.51052767384052277766 0.46621026992797853783 0 -0 0</pose>
+<pose>-0.69882879246473317281 -3.5174723261594773582 -0.12178973007202148482 0 -0 0</pose>
 <geometry>
 <mesh><uri>file://red_wheel.stl</uri></mesh>
 </geometry>
 <material><ambient>1 0 0 1</ambient><diffuse>1 0 0 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
 </visual>
 <collision name="gamefield_5_red_wheel_visual">
-<pose>0.25617120753526689825 0.51052767384052277766 0.46621026992797853783 0 -0 0</pose>
+<pose>-0.69882879246473317281 -3.5174723261594773582 -0.12178973007202148482 0 -0 0</pose>
 <geometry>
 <mesh><uri>file://sdf//red_wheel.stl</uri></mesh>
 </geometry>
 </collision>
 <visual name="gamefield_6_blue_wheel_visual">
-<pose>0.25617120753526689825 0.51052767384052277766 0.46621026992797853783 0 -0 0</pose>
+<pose>-0.57982879246473317814 -3.5154723261594771344 -0.17578973007202147727 0 -0 0</pose>
 <geometry>
 <mesh><uri>file://blue_wheel.stl</uri></mesh>
 </geometry>
 <material><ambient>0 0 1 1</ambient><diffuse>0 0 1 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
 </visual>
 <collision name="gamefield_6_blue_wheel_visual">
-<pose>0.25617120753526689825 0.51052767384052277766 0.46621026992797853783 0 -0 0</pose>
+<pose>-0.57982879246473317814 -3.5154723261594771344 -0.17578973007202147727 0 -0 0</pose>
 <geometry>
 <mesh><uri>file://sdf//blue_wheel.stl</uri></mesh>
 </geometry>
 </collision>
 <visual name="gamefield_7_wheel_stand_visual">
-<pose>0.25617120753526689825 0.51052767384052277766 0.46621026992797853783 0 -0 0</pose>
+<pose>-0.72199355926811648043 -3.5412577252387995586 -0.22978973007202141421 0 -0 -3.141592653589793116</pose>
 <geometry>
 <mesh><uri>file://wheel_stand.stl</uri></mesh>
 </geometry>
 <material><ambient>0.49803921568627451677 0.49803921568627451677 0.49803921568627451677 1</ambient><diffuse>0.49803921568627451677 0.49803921568627451677 0.49803921568627451677 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
 </visual>
 <collision name="gamefield_7_wheel_stand_visual">
-<pose>0.25617120753526689825 0.51052767384052277766 0.46621026992797853783 0 -0 0</pose>
+<pose>-0.72199355926811648043 -3.5412577252387995586 -0.22978973007202141421 0 -0 -3.141592653589793116</pose>
 <geometry>
 <mesh><uri>file://sdf//wheel_stand.stl</uri></mesh>
 </geometry>
 </collision>
-<visual name="gamefield_8_chassis_visual">
-<pose>-0.4949400186538696067 -0.59816188812255854934 -0.15620837390422823154 0 -0 0</pose>
+<visual name="gamefield_8_white_wheel_visual">
+<pose>-0.63913527780771250963 -3.517325343618609601 -0.22928931541442870712 0 -0 0</pose>
+<geometry>
+<mesh><uri>file://white_wheel.stl</uri></mesh>
+</geometry>
+<material><ambient>1 1 1 1</ambient><diffuse>1 1 1 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
+</visual>
+<collision name="gamefield_8_white_wheel_visual">
+<pose>-0.63913527780771250963 -3.517325343618609601 -0.22928931541442870712 0 -0 0</pose>
+<geometry>
+<mesh><uri>file://sdf//white_wheel.stl</uri></mesh>
+</geometry>
+</collision>
+<visual name="gamefield_9_chassis_visual">
+<pose>-0.75194001865386983496 -0.39416188812255870122 -0.19820837390422821334 3.141592653589793116 -2.2204460492503140669e-16 1.57079632679489678</pose>
 <geometry>
 <mesh><uri>file://chassis.stl</uri></mesh>
 </geometry>
 <material><ambient>0.49803921568627451677 0.49803921568627451677 0.49803921568627451677 1</ambient><diffuse>0.49803921568627451677 0.49803921568627451677 0.49803921568627451677 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
 </visual>
-<collision name="gamefield_8_chassis_visual">
-<pose>-0.4949400186538696067 -0.59816188812255854934 -0.15620837390422823154 0 -0 0</pose>
+<collision name="gamefield_9_chassis_visual">
+<pose>-0.75194001865386983496 -0.39416188812255870122 -0.19820837390422821334 3.141592653589793116 -2.2204460492503140669e-16 1.57079632679489678</pose>
 <geometry>
 <mesh><uri>file://sdf//chassis.stl</uri></mesh>
 </geometry>
 </collision>
-<visual name="gamefield_9_cabin_visual">
-<pose>0.78989381842315198323 0.71821308895945545903 0.47025498390197750798 0 -0 0</pose>
+<visual name="gamefield_10_cabin_visual">
+<pose>0.35989381842315198989 -3.5617869110405435684 -0.1147450160980224565 0 -0 0</pose>
 <geometry>
 <mesh><uri>file://cabin.stl</uri></mesh>
 </geometry>
 <material><ambient>0.91764705882352937127 0.91764705882352937127 0.91764705882352937127 1</ambient><diffuse>0.91764705882352937127 0.91764705882352937127 0.91764705882352937127 1</diffuse><specular>0.1 0.1 0.1 1</specular><emissive>0 0 0 0</emissive></material>
 </visual>
-<collision name="gamefield_9_cabin_visual">
-<pose>0.78989381842315198323 0.71821308895945545903 0.47025498390197750798 0 -0 0</pose>
+<collision name="gamefield_10_cabin_visual">
+<pose>0.35989381842315198989 -3.5617869110405435684 -0.1147450160980224565 0 -0 0</pose>
 <geometry>
 <mesh><uri>file://sdf//cabin.stl</uri></mesh>
 </geometry>
 </collision>
 <inertial>
-<pose frame="gamefield_frame">0 0 0 0 0 0</pose>
-<mass>0</mass>
-<inertia><ixx>0</ixx><ixy>0</ixy><ixz>0</ixz><iyy>0</iyy><iyz>0</iyz><izz>0</izz></inertia>
+<pose frame="gamefield_frame">-0.46874290120782485802 -1.0440850387505833385 -0.22830286383540038253 0 0 0</pose>
+<mass>247.11182957758143175</mass>
+<inertia><ixx>825.00369581455015577</ixx><ixy>101.50118846089911528</ixy><ixz>-2.6576296382547845987</ixz><iyy>190.43039342834595118</iyy><iyz>6.3916680800729004375</iyz><izz>1014.9465532381537969</izz></inertia>
 </inertial>
 </link>
 
