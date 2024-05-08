@@ -1,0 +1,176 @@
+<robot name="onshape">
+<link name="gamefield">
+<visual>
+<origin xyz="0.82200604677200383996 -3.5503729581832881301 -0.2558994311094284213" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package:///gamefield.stl"/>
+</geometry>
+<material name="gamefield_material">
+<color rgba="0.49803921568627451677 0.49803921568627451677 0.49803921568627451677 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.82200604677200383996 -3.5503729581832881301 -0.2558994311094284213" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package:///gamefield.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.64082879246473312129 -3.5174723261594773582 -0.069789730072021494145" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package:///white_wheel.stl"/>
+</geometry>
+<material name="white_wheel_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.64082879246473312129 -3.5174723261594773582 -0.069789730072021494145" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package:///white_wheel.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-1.5531061815768480994 -3.594786911040544819 -0.21274501609802254354" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package:///engine.stl"/>
+</geometry>
+<material name="engine_material">
+<color rgba="0.91764705882352937127 0.91764705882352937127 0.91764705882352937127 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-1.5531061815768480994 -3.594786911040544819 -0.21274501609802254354" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package:///engine.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.79589738376438678991 -2.1194079470634470397 -0.22495434546470635673" rpy="0 -0 1.57079632679489678" />
+<geometry>
+<mesh filename="package:///ramp.stl"/>
+</geometry>
+<material name="ramp_material">
+<color rgba="0.49803921568627451677 0.49803921568627451677 0.49803921568627451677 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.79589738376438678991 -2.1194079470634470397 -0.22495434546470635673" rpy="0 -0 1.57079632679489678" />
+<geometry>
+<mesh filename="package:///ramp.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.045785283938049564645 2.3037220712602137773 -0.21374501609802254443" rpy="0 -0 -1.57079632679489678" />
+<geometry>
+<mesh filename="package:///trailer.stl"/>
+</geometry>
+<material name="trailer_material">
+<color rgba="0.91764705882352937127 0.91764705882352937127 0.91764705882352937127 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.045785283938049564645 2.3037220712602137773 -0.21374501609802254443" rpy="0 -0 -1.57079632679489678" />
+<geometry>
+<mesh filename="package:///trailer.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.69882879246473317281 -3.5174723261594773582 -0.12178973007202148482" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package:///red_wheel.stl"/>
+</geometry>
+<material name="red_wheel_material">
+<color rgba="1 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.69882879246473317281 -3.5174723261594773582 -0.12178973007202148482" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package:///red_wheel.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.57982879246473317814 -3.5154723261594771344 -0.17578973007202147727" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package:///blue_wheel.stl"/>
+</geometry>
+<material name="blue_wheel_material">
+<color rgba="0 0 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.57982879246473317814 -3.5154723261594771344 -0.17578973007202147727" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package:///blue_wheel.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.72199355926811648043 -3.5412577252387995586 -0.22978973007202141421" rpy="0 -0 -3.141592653589793116" />
+<geometry>
+<mesh filename="package:///wheel_stand.stl"/>
+</geometry>
+<material name="wheel_stand_material">
+<color rgba="0.49803921568627451677 0.49803921568627451677 0.49803921568627451677 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.72199355926811648043 -3.5412577252387995586 -0.22978973007202141421" rpy="0 -0 -3.141592653589793116" />
+<geometry>
+<mesh filename="package:///wheel_stand.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.63913527780771250963 -3.517325343618609601 -0.22928931541442870712" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package:///white_wheel.stl"/>
+</geometry>
+<material name="white_wheel_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.63913527780771250963 -3.517325343618609601 -0.22928931541442870712" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package:///white_wheel.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="-0.75194001865386983496 -0.39416188812255870122 -0.19820837390422821334" rpy="3.141592653589793116 -2.2204460492503140669e-16 1.57079632679489678" />
+<geometry>
+<mesh filename="package:///chassis.stl"/>
+</geometry>
+<material name="chassis_material">
+<color rgba="0.49803921568627451677 0.49803921568627451677 0.49803921568627451677 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.75194001865386983496 -0.39416188812255870122 -0.19820837390422821334" rpy="3.141592653589793116 -2.2204460492503140669e-16 1.57079632679489678" />
+<geometry>
+<mesh filename="package:///chassis.stl"/>
+</geometry>
+</collision>
+<visual>
+<origin xyz="0.35989381842315198989 -3.5617869110405435684 -0.1147450160980224565" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package:///cabin.stl"/>
+</geometry>
+<material name="cabin_material">
+<color rgba="0.91764705882352937127 0.91764705882352937127 0.91764705882352937127 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.35989381842315198989 -3.5617869110405435684 -0.1147450160980224565" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package:///cabin.stl"/>
+</geometry>
+</collision>
+<inertial>
+<origin xyz="-0.46874290120782485802 -1.0440850387505833385 -0.22830286383540038253" rpy="0 0 0"/>
+<mass value="247.11182957758143175" />
+<inertia ixx="825.00369581455015577" ixy="101.50118846089911528"  ixz="-2.6576296382547845987" iyy="190.43039342834595118" iyz="6.3916680800729004375" izz="1014.9465532381537969" />
+</inertial>
+</link>
+
+
+</robot>
