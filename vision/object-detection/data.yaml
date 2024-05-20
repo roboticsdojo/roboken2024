@@ -1,0 +1,13 @@
+train: /content/drive/MyDrive/ROBOKEN-2024/Machine-Vision/Object-Detection-Model/datasets/roboken-dataset-v3/train/images
+val: /content/drive/MyDrive/ROBOKEN-2024/Machine-Vision/Object-Detection-Model/datasets/roboken-dataset-v3/valid/images
+test: /content/drive/MyDrive/ROBOKEN-2024/Machine-Vision/Object-Detection-Model/datasets/roboken-dataset-v3/test/images
+
+nc: 6
+names: ['blue_wheel', 'cabin', 'engine', 'red_wheel', 'trailer', 'white_wheel']
+
+roboflow:
+  workspace: robotics-dojo
+  project: roboken-object-detection
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/robotics-dojo/roboken-object-detection/dataset/3
