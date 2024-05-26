@@ -1,5 +1,5 @@
 /.vscode
 /moveit_sim/build
 /moveit_sim/devel
-
-
+/mobile_platform_ws/build
+/mobile_platform_ws/devel
