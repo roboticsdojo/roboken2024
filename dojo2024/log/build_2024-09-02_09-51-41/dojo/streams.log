@@ -1,0 +1,70 @@
+[0.041s] Invoking command in '/home/greyhat/Desktop/dojo2024/build/dojo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/greyhat/test_ws/install/mobile_robot:/opt/ros/humble /usr/bin/cmake /home/greyhat/Desktop/dojo2024/src/dojo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/greyhat/Desktop/dojo2024/install/dojo
+[0.486s] -- The C compiler identification is GNU 11.4.0
+[0.907s] -- The CXX compiler identification is GNU 11.4.0
+[0.925s] -- Detecting C compiler ABI info
+[1.079s] -- Detecting C compiler ABI info - done
+[1.096s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.099s] -- Detecting C compile features
+[1.100s] -- Detecting C compile features - done
+[1.108s] -- Detecting CXX compiler ABI info
+[1.277s] -- Detecting CXX compiler ABI info - done
+[1.311s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.311s] -- Detecting CXX compile features
+[1.313s] -- Detecting CXX compile features - done
+[1.327s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.622s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.729s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.802s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.063s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.087s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.090s] -- Added test 'lint_cmake' to check CMake code style
+[2.092s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.102s] -- Added test 'xmllint' to check XML markup files
+[2.106s] -- Configuring done
+[2.110s] -- Generating done
+[2.112s] -- Build files have been written to: /home/greyhat/Desktop/dojo2024/build/dojo
+[2.119s] Invoked command in '/home/greyhat/Desktop/dojo2024/build/dojo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/greyhat/test_ws/install/mobile_robot:/opt/ros/humble /usr/bin/cmake /home/greyhat/Desktop/dojo2024/src/dojo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/greyhat/Desktop/dojo2024/install/dojo
+[2.123s] Invoking command in '/home/greyhat/Desktop/dojo2024/build/dojo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/greyhat/test_ws/install/mobile_robot:/opt/ros/humble /usr/bin/cmake --build /home/greyhat/Desktop/dojo2024/build/dojo -- -j4 -l4
+[2.183s] Invoked command in '/home/greyhat/Desktop/dojo2024/build/dojo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/greyhat/test_ws/install/mobile_robot:/opt/ros/humble /usr/bin/cmake --build /home/greyhat/Desktop/dojo2024/build/dojo -- -j4 -l4
+[2.237s] Invoking command in '/home/greyhat/Desktop/dojo2024/build/dojo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/greyhat/test_ws/install/mobile_robot:/opt/ros/humble /usr/bin/cmake --install /home/greyhat/Desktop/dojo2024/build/dojo
+[2.249s] -- Install configuration: ""
+[2.250s] -- Execute custom install script
+[2.250s] -- Symlinking: /home/greyhat/Desktop/dojo2024/install/dojo/share/dojo/config/default_view.rviz
+[2.265s] -- Symlinking: /home/greyhat/Desktop/dojo2024/install/dojo/share/dojo/config/empty.yaml
+[2.279s] -- Symlinking: /home/greyhat/Desktop/dojo2024/install/dojo/share/dojo/config/gazebo_params.yaml
+[2.296s] -- Symlinking: /home/greyhat/Desktop/dojo2024/install/dojo/share/dojo/config/mapper_params_online_async.yaml
+[2.312s] -- Symlinking: /home/greyhat/Desktop/dojo2024/install/dojo/share/dojo/config/my_controllers.yaml
+[2.325s] -- Symlinking: /home/greyhat/Desktop/dojo2024/install/dojo/share/dojo/config/nav2_params.yaml
+[2.339s] -- Symlinking: /home/greyhat/Desktop/dojo2024/install/dojo/share/dojo/config/twist_mux.yaml
+[2.354s] -- Symlinking: /home/greyhat/Desktop/dojo2024/install/dojo/share/dojo/description/gazebo_control.xacro
+[2.367s] -- Symlinking: /home/greyhat/Desktop/dojo2024/install/dojo/share/dojo/description/inertial_macros.xacro
+[2.380s] -- Symlinking: /home/greyhat/Desktop/dojo2024/install/dojo/share/dojo/description/lidar.xacro
+[2.393s] -- Symlinking: /home/greyhat/Desktop/dojo2024/install/dojo/share/dojo/description/robot.urdf.xacro
+[2.406s] -- Symlinking: /home/greyhat/Desktop/dojo2024/install/dojo/share/dojo/description/robot_core.xacro
+[2.423s] -- Symlinking: /home/greyhat/Desktop/dojo2024/install/dojo/share/dojo/description/ros2_control.xacro
+[2.438s] -- Symlinking: /home/greyhat/Desktop/dojo2024/install/dojo/share/dojo/launch/consolidated.launch.py
+[2.455s] -- Symlinking: /home/greyhat/Desktop/dojo2024/install/dojo/share/dojo/launch/launch_sim.launch.py
+[2.470s] -- Symlinking: /home/greyhat/Desktop/dojo2024/install/dojo/share/dojo/launch/localization_launch.py
+[2.483s] -- Symlinking: /home/greyhat/Desktop/dojo2024/install/dojo/share/dojo/launch/navigation_launch.py
+[2.499s] -- Symlinking: /home/greyhat/Desktop/dojo2024/install/dojo/share/dojo/launch/raspi_bot.launch.py
+[2.514s] -- Symlinking: /home/greyhat/Desktop/dojo2024/install/dojo/share/dojo/launch/rsp.launch.py
+[2.528s] -- Symlinking: /home/greyhat/Desktop/dojo2024/install/dojo/share/dojo/worlds/dojo2024
+[2.543s] -- Symlinking: /home/greyhat/Desktop/dojo2024/install/dojo/share/dojo/worlds/empty.world
+[2.557s] -- Symlinking: /home/greyhat/Desktop/dojo2024/install/dojo/share/dojo/worlds/world_model/model.config
+[2.570s] -- Symlinking: /home/greyhat/Desktop/dojo2024/install/dojo/share/dojo/worlds/world_model/model.sdf
+[2.584s] -- Symlinking: /home/greyhat/Desktop/dojo2024/install/dojo/share/ament_index/resource_index/package_run_dependencies/dojo
+[2.597s] -- Symlinking: /home/greyhat/Desktop/dojo2024/install/dojo/share/ament_index/resource_index/parent_prefix_path/dojo
+[2.612s] -- Symlinking: /home/greyhat/Desktop/dojo2024/install/dojo/share/dojo/environment/ament_prefix_path.sh
+[2.629s] -- Symlinking: /home/greyhat/Desktop/dojo2024/install/dojo/share/dojo/environment/ament_prefix_path.dsv
+[2.641s] -- Symlinking: /home/greyhat/Desktop/dojo2024/install/dojo/share/dojo/environment/path.sh
+[2.657s] -- Symlinking: /home/greyhat/Desktop/dojo2024/install/dojo/share/dojo/environment/path.dsv
+[2.673s] -- Symlinking: /home/greyhat/Desktop/dojo2024/install/dojo/share/dojo/local_setup.bash
+[2.691s] -- Symlinking: /home/greyhat/Desktop/dojo2024/install/dojo/share/dojo/local_setup.sh
+[2.705s] -- Symlinking: /home/greyhat/Desktop/dojo2024/install/dojo/share/dojo/local_setup.zsh
+[2.720s] -- Symlinking: /home/greyhat/Desktop/dojo2024/install/dojo/share/dojo/local_setup.dsv
+[2.735s] -- Symlinking: /home/greyhat/Desktop/dojo2024/install/dojo/share/dojo/package.dsv
+[2.749s] -- Symlinking: /home/greyhat/Desktop/dojo2024/install/dojo/share/ament_index/resource_index/packages/dojo
+[2.764s] -- Symlinking: /home/greyhat/Desktop/dojo2024/install/dojo/share/dojo/cmake/dojoConfig.cmake
+[2.777s] -- Symlinking: /home/greyhat/Desktop/dojo2024/install/dojo/share/dojo/cmake/dojoConfig-version.cmake
+[2.795s] -- Symlinking: /home/greyhat/Desktop/dojo2024/install/dojo/share/dojo/package.xml
+[2.812s] Invoked command in '/home/greyhat/Desktop/dojo2024/build/dojo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/greyhat/test_ws/install/mobile_robot:/opt/ros/humble /usr/bin/cmake --install /home/greyhat/Desktop/dojo2024/build/dojo

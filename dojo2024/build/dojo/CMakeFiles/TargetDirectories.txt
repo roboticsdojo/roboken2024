@@ -1,0 +1,9 @@
+/home/greyhat/Desktop/dojo2024/build/dojo/CMakeFiles/uninstall.dir
+/home/greyhat/Desktop/dojo2024/build/dojo/CMakeFiles/dojo_uninstall.dir
+/home/greyhat/Desktop/dojo2024/build/dojo/CMakeFiles/test.dir
+/home/greyhat/Desktop/dojo2024/build/dojo/CMakeFiles/edit_cache.dir
+/home/greyhat/Desktop/dojo2024/build/dojo/CMakeFiles/rebuild_cache.dir
+/home/greyhat/Desktop/dojo2024/build/dojo/CMakeFiles/list_install_components.dir
+/home/greyhat/Desktop/dojo2024/build/dojo/CMakeFiles/install.dir
+/home/greyhat/Desktop/dojo2024/build/dojo/CMakeFiles/install/local.dir
+/home/greyhat/Desktop/dojo2024/build/dojo/CMakeFiles/install/strip.dir

@@ -1,0 +1,4 @@
+source;share/dojo/local_setup.bash
+source;share/dojo/local_setup.dsv
+source;share/dojo/local_setup.sh
+source;share/dojo/local_setup.zsh
